@@ -107,7 +107,7 @@ const purpleOptions = { color: 'purple' }
 const redOptions = { color: 'red' }
 
 return (
-  <MapContainer bounds={[-200, -200], [200, 200]} center={center} zoom={3} scrollWheelZoom={true} style={{'height': 1000}} maxZoom={7} minZoom={3}>
+  <MapContainer bounds={[-200, -200], [200, 200]} center={center} zoom={3} scrollWheelZoom={true} style={{'height': '100vh', 'width': '100vw'}} maxZoom={7} minZoom={3}>
     <ImageOverlay
       bounds={[
         [-200, -200],
