@@ -53,7 +53,7 @@ function GeneratePolygons() {
 }
 
 function Map() {
-  const center = [-9.0804, 42.330322]
+  const center = [-9.0804, -11]
 
 const polyline = [
   [51.505, -0.09],
